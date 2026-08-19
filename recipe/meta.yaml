@@ -37,7 +37,7 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
-    - xz-tools # [win]
+    - xz-tools                     # [win]
   host:
     - r-base
     - r-dbi
